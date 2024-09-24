@@ -36,7 +36,8 @@ TARGETS ?=	stm32/f0 stm32/f1 stm32/f2 stm32/f3 stm32/f4 stm32/f7 \
 		sam/d \
 		vf6xx \
 		swm050 \
-		pac55xx
+		pac55xx \
+		air32/f1
 
 # Be silent per default, but 'make V=1' will show all compiler calls.
 ifneq ($(V),1)
